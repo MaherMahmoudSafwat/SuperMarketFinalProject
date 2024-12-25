@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Admin">
+      <UniqueIdentifier>{4507481f-568c-4f75-a37b-b44588dc7406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Customer">
+      <UniqueIdentifier>{79b81730-6746-4f14-9b71-89b99241982b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MainScreenMenu">
+      <UniqueIdentifier>{610aa224-f78a-49f6-ae39-c10f47b74503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens">
+      <UniqueIdentifier>{95e0bd27-d20f-4e0b-b1cc-6abda7c45302}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libraries">
+      <UniqueIdentifier>{01ccf469-e2b2-41cc-9a46-13cadd52ab7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\AdminScreens">
+      <UniqueIdentifier>{d4ca83d1-eec8-4389-a727-ab6f5747e90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screens\CustomerScreens">
+      <UniqueIdentifier>{ab6f4ced-01e8-4ff1-bbda-17558f45d915}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SuperMarketFinalProject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsMainScreenMenu.h">
+      <Filter>Header Files\MainScreenMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDrawScreenHeader.h">
+      <Filter>Header Files\Screens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUtil.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="clsInputValidate.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAdminMainScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAdminLoginBusinessLogic.h">
+      <Filter>Header Files\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowAdminMainMenu.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowCustomerMainMenuScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerMainScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomer.h">
+      <Filter>Header Files\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerLoginBusinessLogic.h">
+      <Filter>Header Files\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowCustomerSignInScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerSignUpScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageUsersScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsManageProductsScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddProductToCartScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsShowUpdateUserSettingScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewInventory.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindUserScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteUserScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewAllCustomersScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsProduct.h">
+      <Filter>Header Files\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="clsProductBusinessLogic.h">
+      <Filter>Header Files\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddNewProductScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsUpdateProductScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteProductScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFindProductScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewAllProductsScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsProductInventoryBusinessLogic.h">
+      <Filter>Header Files\Admin</Filter>
+    </ClInclude>
+    <ClInclude Include="clsProductCartBusinessLogic.h">
+      <Filter>Header Files\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCustomerGlobal.h">
+      <Filter>Header Files\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAddProductScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteProductFromCartScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewAllProductsAddedToCart.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPurchaseProductScreen.h">
+      <Filter>Header Files\Screens\CustomerScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDate.h">
+      <Filter>Header Files\Libraries</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPurchaseProductBusinessLogic.h">
+      <Filter>Header Files\Customer</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewProductsSoldScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsViewAllSoldProductsMenu.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsDeleteAllSoldProductsInfo.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+    <ClInclude Include="clsAdminSettingScreen.h">
+      <Filter>Header Files\Screens\AdminScreens</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
